@@ -33,22 +33,27 @@ For any questions or suggestions, please feel free to reach out to us.
 
 ## Table of Contents
 
-- [1. Algorithm](#1-algorithm)
-    - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
-    - [1.2 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
-    - [1.3 Long Video Generation](#13-long-video-generation)
-- [2. Application](#2-application)
-    - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
-    - [2.2 Interactive Video Action World Model](#22-interactive-video-action-world-model)
-    - [2.3 Real-time Interactive Avtar & Motion Control](#23-real-time-interactive-avtar--motion-control)
-    - [2.4 Egocentric Interaction](#24-egocentric-interaction)
-    - [2.5 Embodied AI](#25-embodied-ai)
-- [3. Infrastructure](#3-infrastructure)
-    - [3.1 Sparse Attention](#31-sparse-attention)
-    - [3.2 Caching](#32-caching)
-    - [3.3 Quantized Attention](#33-quantized-attention)
-- [Contributing](#contributing)
-- [Acknowledgment](#acknowledgment)
+- [📹 Awesome Video World Models with AR Diffusion](#-awesome-video-world-models-with-ar-diffusion)
+  - [Overview](#overview)
+    - [🌟 Key Features](#-key-features)
+    - [📬 Contact](#-contact)
+  - [Table of Contents](#table-of-contents)
+  - [1. Algorithm](#1-algorithm)
+  - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
+  - [1.2 🔥 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
+  - [1.3 Long Video Generation](#13-long-video-generation)
+  - [2. Application](#2-application)
+  - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
+  - [2.2 Interactive Video Action World Model](#22-interactive-video-action-world-model)
+  - [2.3 Real-time Interactive Avtar \& Motion \& Physical \& Audio Control](#23-real-time-interactive-avtar--motion--physical--audio-control)
+  - [2.4 Egocentric Interaction](#24-egocentric-interaction)
+  - [2.5 Embodied AI / Autonomous Driving](#25-embodied-ai--autonomous-driving)
+  - [3 Infrastructure](#3-infrastructure)
+  - [3.1 Sparse Attention](#31-sparse-attention)
+  - [3.2 Caching](#32-caching)
+  - [3.3 Quantized Attention](#33-quantized-attention)
+    - [Contributing](#contributing)
+    - [Acknowledgment](#acknowledgment)
 
 
 ## 1. Algorithm
@@ -111,9 +116,11 @@ This category of algorithms focuses on **distilling multi-step bidirectional dif
      * **ShotStream**, "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling". [![arXiv](https://img.shields.io/badge/arXiv-2603.25746-b31b1b.svg)](https://arxiv.org/abs/2603.25746) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://luo0207.github.io/ShotStream/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/KlingAIResearch/ShotStream)[![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L537)
      * **DCARL**, "DCARL: A Divide-and-Conquer Framework for Autoregressive Long-Trajectory Video Generation". [![arXiv](https://img.shields.io/badge/arXiv-2603.24835-b31b1b.svg)](https://arxiv.org/abs/2603.24835) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://junyiouy.github.io/projects/dcarl/) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L562)
      * **PackForcing**, "PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference". [![arXiv](https://img.shields.io/badge/arXiv-2603.25730-b31b1b.svg)](https://arxiv.org/abs/2603.25730) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/ShandaAI/PackForcing)[![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L568)
+  
       * **Grounded Forcing**, "Grounded Forcing: Bridging Time-Independent Semantics and Proximal Dynamics in Autoregressive Video Synthesis".  [![arXiv](https://img.shields.io/badge/arXiv-2604.06939-b31b1b.svg)](https://arxiv.org/abs/2604.06939) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L586)
        * **TempoMaster**, "TempoMaster: Efficient Long Video Generation via Next-Frame-Rate Prediction", [![arXiv](https://img.shields.io/badge/arXiv-2511.12578-b31b1b.svg)](https://arxiv.org/abs/2511.12578) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L592)
-     
+      * **Hybrid Forcing**, "Long-Horizon Streaming Video Generation via
+Hybrid Attention with Decoupled Distillation", [![arXiv](https://img.shields.io/badge/arXiv-2604.10103v1-b31b1b.svg)](https://arxiv.org/pdf/2604.10103v1) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L613)
 
 
 * Long-term Memory:
@@ -173,6 +180,7 @@ with Long-Horizon Memory". [![arXiv](https://img.shields.io/badge/arXiv-2512.040
 
 - **MagicWorld**, "MagicWorld: Towards Long-Horizon Stability for Interactive Video World Exploration".  [![arXiv](https://img.shields.io/badge/arXiv-2511.18886-b31b1b.svg)](https://arxiv.org/abs/2511.18886v2) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://vivocameraresearch.github.io/magicworld/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/vivoCameraResearch/Magic-World) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L500)
 - **OmniRoam**, "OmniRoam: World Wandering via Long-Horizon Panoramic Video Generation".  [![arXiv](https://img.shields.io/badge/arXiv-2603.30045-b31b1b.svg)](https://arxiv.org/abs/2603.30045) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://yuheng.ink/project-page/omniroam/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/yuhengliu02/OmniRoam) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L580) 
+- **INSPATIO-WORLD**, "INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling". [![arXiv](https://img.shields.io/badge/arXiv-2604.07209v2-b31b1b.svg)](https://arxiv.org/abs/2604.07209v2) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://inspatio.github.io/inspatio-world/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/inspatio/inspatio-world) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L622)
 
 ## 2.3 Real-time Interactive Avtar & Motion & Physical & Audio Control
 * **MotionStream**, "MotionStream: Real-Time Video Generation with Interactive Motion Controls".  [![arXiv](https://img.shields.io/badge/arXiv-2511.01266-b31b1b.svg)](https://arxiv.org/abs/2511.01266) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://joonghyuk.com/motionstream-web) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/alex4727/motionstream)  [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L257)
@@ -190,6 +198,10 @@ with Long-Horizon Memory". [![arXiv](https://img.shields.io/badge/arXiv-2512.040
 * **OmniForcing**, "OmniForcing: Unleashing Real-time Joint Audio-Visual Generation". [![arXiv](https://img.shields.io/badge/arXiv-2603.11647-b31b1b.svg)](https://arxiv.org/pdf/2603.11647) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://omniforcing.com/) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/OmniForcing/OmniForcing) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L437)
 
 * **PRISM:**, "PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition". [![arXiv](https://img.shields.io/badge/arXiv-2603.08590-b31b1b.svg)](https://arxiv.org/pdf/2603.08590) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/ZeyuLing/PRISM) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L464)
+
+* **DiT as Real-Time Rerenderer**, "DiT as Real-Time Rerenderer: Streaming Video
+Stylization with Autoregressive Diffusion
+Transformer". [![arxiv](https://img.shields.io/badge/arXiv-2604.13509v1-b31b1b.svg)](https://arxiv.org/abs/2604.13509v1) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L604)
 
 
 
