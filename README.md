@@ -25,6 +25,7 @@ This repository is curated and maintained by:
 * [**Min Zhao**](https://gracezhao1997.github.io/) ([gracezhao1997@gmail.com](mailto:gracezhao1997@gmail.com))
 * [**Hongzhou Zhu**](https://zhuhz22.github.io/) ([suinibian74@gmail.com](mailto:suinibian74@gmail.com))
 * [**Wenqiang Sun**](https://scholar.google.com/citations?user=XEUeiTEAAAAJ&hl=en) ([sunwq0814@gmail.com](mailto:sunwq0814@gmail.com))
+* [**Bokai Yan**](https://github.com/KasenYoung)([2386721886@qq.com])(mailto:2386721886@qq.com)
 
 For any questions or suggestions, please feel free to reach out to us. 
 
@@ -32,20 +33,27 @@ For any questions or suggestions, please feel free to reach out to us.
 * 💡 We also welcome high-level categorization, synthesis, and perspective contributions to improve the organization and clarity of this repository.
 
 ## Table of Contents
+- [📹 Awesome Video World Models with AR Diffusion](#-awesome-video-world-models-with-ar-diffusion)
+  - [Overview](#overview)
+    - [🌟 Key Features](#-key-features)
+    - [📬 Contact](#-contact)
+  - [Table of Contents](#table-of-contents)
   - [1. Algorithm](#1-algorithm)
-    - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
-    - [1.2 🔥 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
-    - [1.3 Long Video Generation](#13-long-video-generation)
+  - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
+  - [1.2 🔥 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
+  - [1.3 Long Video Generation](#13-long-video-generation)
   - [2. Application](#2-application)
-    - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
-    - [2.2 Interactive Video Action World Model](#22-interactive-video-action-world-model)
-    - [2.3 Real-time Interactive Avtar \& Motion \& Physical \& Audio Control](#23-real-time-interactive-avtar--motion--physical--audio-control)
-    - [2.4 Egocentric Interaction](#24-egocentric-interaction)
-    - [2.5 Embodied AI / Autonomous Driving](#25-embodied-ai--autonomous-driving)
+  - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
+  - [2.2 Interactive Video Action World Model](#22-interactive-video-action-world-model)
+  - [2.3 Real-time Interactive Avtar \& Motion \& Physical \& Audio Control](#23-real-time-interactive-avtar--motion--physical--audio-control)
+  - [2.4 Egocentric Interaction](#24-egocentric-interaction)
+  - [2.5 Embodied AI / Autonomous Driving](#25-embodied-ai--autonomous-driving)
   - [3 Infrastructure](#3-infrastructure)
-    - [3.1 Sparse Attention](#31-sparse-attention)
-    - [3.2 Caching](#32-caching)
-    - [3.3 Quantized Attention](#33-quantized-attention)
+  - [3.1 Sparse Attention](#31-sparse-attention)
+  - [3.2 Caching](#32-caching)
+  - [3.3 Quantized Attention](#33-quantized-attention)
+    - [Contributing](#contributing)
+    - [Acknowledgment](#acknowledgment)
 
 
 
