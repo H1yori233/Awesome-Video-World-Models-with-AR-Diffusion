@@ -25,7 +25,7 @@ This repository is curated and maintained by:
 * [**Min Zhao**](https://gracezhao1997.github.io/) ([gracezhao1997@gmail.com](mailto:gracezhao1997@gmail.com))
 * [**Hongzhou Zhu**](https://zhuhz22.github.io/) ([suinibian74@gmail.com](mailto:suinibian74@gmail.com))
 * [**Wenqiang Sun**](https://scholar.google.com/citations?user=XEUeiTEAAAAJ&hl=en) ([sunwq0814@gmail.com](mailto:sunwq0814@gmail.com))
-* [**Bokai Yan**] (https://github.com/KasenYoung)([2386721886@qq.com](mailto:2386721886@qq.com))
+* [**Bokai Yan**](https://github.com/KasenYoung) ([2386721886@qq.com](mailto:2386721886@qq.com))
 
 For any questions or suggestions, please feel free to reach out to us. 
 
