@@ -25,7 +25,7 @@ This repository is curated and maintained by:
 * [**Min Zhao**](https://gracezhao1997.github.io/) ([gracezhao1997@gmail.com](mailto:gracezhao1997@gmail.com))
 * [**Hongzhou Zhu**](https://zhuhz22.github.io/) ([suinibian74@gmail.com](mailto:suinibian74@gmail.com))
 * [**Wenqiang Sun**](https://scholar.google.com/citations?user=XEUeiTEAAAAJ&hl=en) ([sunwq0814@gmail.com](mailto:sunwq0814@gmail.com))
-* [**Bokai Yan**](https://github.com/KasenYoung)([2386721886@qq.com](mailto:2386721886@qq.com))
+* [**Bokai Yan**] (https://github.com/KasenYoung)([2386721886@qq.com](mailto:2386721886@qq.com))
 
 For any questions or suggestions, please feel free to reach out to us. 
 
@@ -35,7 +35,7 @@ For any questions or suggestions, please feel free to reach out to us.
 ## Table of Contents
 - [1. Algorithm](#1-algorithm)
   - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
-  - [1.2 🔥 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
+  - [1.2 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
   - [1.3 Long Video Generation](#13-long-video-generation)
 - [2. Application](#2-application)
   - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
