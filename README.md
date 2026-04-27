@@ -212,7 +212,7 @@ Stylization with Autoregressive Diffusion
 Transformer". [![arxiv](https://img.shields.io/badge/arXiv-2604.13509-b31b1b.svg)](https://arxiv.org/abs/2604.13509) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L604)
 
 * **PortraitDirector**,"PortraitDirector: A Hierarchical Disentanglement Framework for Controllable
-and Real-time Facial Reenactment". [![arXiv](https://img.shields.io/badge/arXiv-2604.19129-b31b1b.svg)](https://arxiv.org/pdf/2604.19129) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/ZeyuLing/PRISM) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L685)
+and Real-time Facial Reenactment". [![arXiv](https://img.shields.io/badge/arXiv-2604.19129-b31b1b.svg)](https://arxiv.org/pdf/2604.19129) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L685)
 
 
 
