@@ -33,20 +33,28 @@ For any questions or suggestions, please feel free to reach out to us.
 * 💡 We also welcome high-level categorization, synthesis, and perspective contributions to improve the organization and clarity of this repository.
 
 ## Table of Contents
-- [1. Algorithm](#1-algorithm)
+- [📹 Awesome Video World Models with AR Diffusion](#-awesome-video-world-models-with-ar-diffusion)
+  - [Overview](#overview)
+    - [🌟 Key Features](#-key-features)
+    - [📬 Contact](#-contact)
+  - [Table of Contents](#table-of-contents)
+  - [1. Algorithm](#1-algorithm)
   - [1.1 AR Diffusion (native pretraining)](#11-ar-diffusion-native-pretraining)
-  - [1.2 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
+  - [1.2 🔥 AR Diffusion Distillation for Real-time Generation (post training)](#12--ar-diffusion-distillation-for-real-time-generation-post-training)
   - [1.3 Long Video Generation](#13-long-video-generation)
-- [2. Application](#2-application)
+  - [2. Application](#2-application)
   - [2.1 Open-source AR Video Foundation Models](#21-open-source-ar-video-foundation-models)
   - [2.2 Interactive Video Action World Model](#22-interactive-video-action-world-model)
   - [2.3 Real-time Interactive Avtar \& Motion \& Physical \& Audio Control](#23-real-time-interactive-avtar--motion--physical--audio-control)
   - [2.4 Egocentric Interaction](#24-egocentric-interaction)
   - [2.5 Embodied AI / Autonomous Driving](#25-embodied-ai--autonomous-driving)
-- [3 Infrastructure](#3-infrastructure)
+  - [3 Infrastructure](#3-infrastructure)
   - [3.1 Sparse Attention](#31-sparse-attention)
   - [3.2 Caching](#32-caching)
   - [3.3 Quantized Attention](#33-quantized-attention)
+  - [3.4 Speculative Decoding](#34-speculative-decoding)
+    - [Contributing](#contributing)
+    - [Acknowledgment](#acknowledgment)
    
 
 
@@ -114,7 +122,11 @@ This category of algorithms focuses on **distilling multi-step bidirectional dif
      * **Grounded Forcing**, "Grounded Forcing: Bridging Time-Independent Semantics and Proximal Dynamics in Autoregressive Video Synthesis".  [![arXiv](https://img.shields.io/badge/arXiv-2604.06939-b31b1b.svg)](https://arxiv.org/abs/2604.06939) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L586)
      * **TempoMaster**, "TempoMaster: Efficient Long Video Generation via Next-Frame-Rate Prediction", [![arXiv](https://img.shields.io/badge/arXiv-2511.12578-b31b1b.svg)](https://arxiv.org/abs/2511.12578) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L592)
      * **Hybrid Forcing**, "Long-Horizon Streaming Video Generation via
-Hybrid Attention with Decoupled Distillation", [![arXiv](https://img.shields.io/badge/arXiv-2604.10103v1-b31b1b.svg)](https://arxiv.org/pdf/2604.10103v1) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L613)
+    Hybrid Attention with Decoupled Distillation", [![arXiv](https://img.shields.io/badge/arXiv-2604.10103-b31b1b.svg)](https://arxiv.org/pdf/2604.10103) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L613)
+     * **Sparse Forcing** *,"Sparse Forcing: Native Trainable Sparse Attention
+    for Real-time Autoregressive Diffusion Video Generation", [![arXiv](https://img.shields.io/badge/arXiv-2604.21221-b31b1b.svg)](https://arxiv.org/pdf/2604.21221) [![Website](https://img.shields.io/badge/Website-Link-blue)](https://boxunxu.top/SparseForcing/)
+    [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L667)
+      
 
 
 * Long-term Memory:
@@ -197,7 +209,10 @@ with Long-Horizon Memory". [![arXiv](https://img.shields.io/badge/arXiv-2512.040
 
 * **DiT as Real-Time Rerenderer**, "DiT as Real-Time Rerenderer: Streaming Video
 Stylization with Autoregressive Diffusion
-Transformer". [![arxiv](https://img.shields.io/badge/arXiv-2604.13509v1-b31b1b.svg)](https://arxiv.org/abs/2604.13509v1) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L604)
+Transformer". [![arxiv](https://img.shields.io/badge/arXiv-2604.13509-b31b1b.svg)](https://arxiv.org/abs/2604.13509) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L604)
+
+* **PortraitDirector**,"PortraitDirector: A Hierarchical Disentanglement Framework for Controllable
+and Real-time Facial Reenactment". [![arXiv](https://img.shields.io/badge/arXiv-2604.19129-b31b1b.svg)](https://arxiv.org/pdf/2604.19129) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/ZeyuLing/PRISM) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L685)
 
 
 
@@ -239,11 +254,16 @@ Hand Gestures". [![arXiv](https://img.shields.io/badge/arXiv-2602.09600-b31b1b.s
 ## 3.2 Caching
 * **FlowCache**, "Flow caching for autoregressive video generation". [![arXiv](https://img.shields.io/badge/arXiv-2602.10825-b31b1b.svg)](https://arxiv.org/abs/2602.10825)  [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/mikeallen39/FlowCache) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L335)
 * **WorldCache**, "WorldCache: Content-Aware Caching for Accelerated Video World Models". [![arXiv](https://img.shields.io/badge/arXiv-2603.22286-b31b1b.svg)](https://arxiv.org/abs/2603.22286) [![Code](https://img.shields.io/badge/Code-GitHub-green)](https://github.com/umair1221/WorldCache)[![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L517)
+* **X-Cache**, "X-Cache: Cross-Chunk Block Caching for Few-Step Autoregressive World Models Inference". [![arXiv](https://img.shields.io/badge/arXiv-2604.20289-b31b1b.svg)](https://arxiv.org/abs/2604.20289) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L676)
 
 
 ## 3.3 Quantized Attention
 * **Quant VideoGen**, "Quant VideoGen: Auto-Regressive Long Video Generation via 2-Bit KV-Cache Quantization". [![arXiv](https://img.shields.io/badge/arXiv-2602.02958-b31b1b.svg)](https://arxiv.org/abs/2602.02958) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L341)
 - "KV Cache Quantization for Self-Forcing Video Generation: A 33-Method Empirical Study". [![arXiv](https://img.shields.io/badge/arXiv-2603.27469-b31b1b.svg)](https://arxiv.org/abs/2603.27469) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L574)
+
+## 3.4 Speculative Decoding
+* **SDVG**,"Speculative Decoding for Autoregressive Video Generation".[![arXiv](https://img.shields.io/badge/arXiv-2604.17397-b31b1b.svg)](https://arxiv.org/abs/2604.17397) [![BibTeX](https://img.shields.io/badge/BibTeX-Link-blue)](https://github.com/gracezhao1997/Awesome-Video-World-Models-with-AR-Diffusion/blob/main/video-world-models.bib#L694)
+
 
 
 ---
